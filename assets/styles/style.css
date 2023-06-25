@@ -8,7 +8,7 @@
 body,
 html {
     color: white;
-    overflowX: hidden;
+    overflow-x: hidden;
     background-color: black;
 }
 
