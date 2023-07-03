@@ -3,6 +3,7 @@
 ## Overview
 This is a JavaScript-based Memory Game, where the player needs to match pairs of cards with identical images. The game tracks the number of moves (tentativas) taken by the player and displays different messages based on their performance. The game is won when all pairs are matched successfully.
 
+  
 ## How to Play
 1. The game starts with all cards facing down.
 2. Click on a card to reveal its image.
@@ -11,6 +12,9 @@ This is a JavaScript-based Memory Game, where the player needs to match pairs of
 5. If the two cards have different images, they will be flipped back down.
 6. Continue flipping and matching cards until all pairs are matched.
 7. The game ends when all pairs are matched, and a congratulatory message is displayed.
+
+
+![Memory Game print screen](https://github.com/malanski/images/raw/main/memory-game.png)  
 
 ## Code Explanation
 1. The code selects all the cards with the class `.card` and stores them in the `cards` variable. It also selects the element with the class `.memory-game` and stores it in the `main` variable.
